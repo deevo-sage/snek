@@ -5,14 +5,14 @@ const styles = document.getElementById("styles");
 let direction = 2;
 const gridArr = [];
 let end = 0;
-let y = 30,
-  x = 20;
+let y = 10,
+  x = 16;
 const arrLength = x * y;
 const snek = [0];
 let food = Math.floor(Math.random() * arrLength);
 
 let points = 0;
-let speed = 50;
+let speed = 200;
 const directionPoints = [-1, -x, 1, x];
 let myInterval = () => {};
 for (let i = 0; i < arrLength; i++) {
