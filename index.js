@@ -1,4 +1,4 @@
-console.log("n word pass");
+
 const root = document.getElementById("root");
 const pointsDiv = document.getElementById("points");
 const styles = document.getElementById("styles");
