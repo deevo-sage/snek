@@ -12,7 +12,7 @@ const snek = [0];
 let food = Math.floor(Math.random() * arrLength);
 
 let points = 0;
-let speed = 10;
+let speed = 1;
 const directionPoints = [-1, -x, 1, x];
 let myInterval = () => {};
 for (let i = 0; i < arrLength; i++) {
